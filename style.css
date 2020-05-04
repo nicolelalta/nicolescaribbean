@@ -1,0 +1,55 @@
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+body {
+  background-image: url("images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text-container {
+  font-size: 25px;
+  font-family: "Bookman, URW";
+  background-color: white;
+  margin-left: 275px;
+  margin-right: 275px;
+  margin-top: 75px;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+}
+.text-container p {
+  padding: 50px;
+}
+.footer {
+  margin: 100px;
+}
+.text-container table {
+  margin-left: 75px;
+  padding: 100px;
+}
+.text-container tr {
+  border-bottom: 1px solid #ddd;
+}
+.text-container td:nth-child(1) {
+  padding-right: 300px;
+}
+.text-container td:nth-child(2) {
+  text-align: right;
+  padding: 10px;
+  font-style: italic;
+}
+.text-container td:nth-child(3) {
+  text-align: right;
+  padding: 10px;
+  font-style: italic;
+}
+.map {
+  margin-left: 200px;
+}
