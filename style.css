@@ -12,17 +12,19 @@ body {
   background-attachment: fixed;
 }
 .text-container {
-  font-size: 25px;
+  font-size: 2vw;
   font-family: "Bookman, URW";
   background-color: white;
-  margin-left: 275px;
-  margin-right: 275px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 75px;
   padding-top: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-bottom: 50px;
   border-radius: 25px;
+  overflow-x: auto;
+
 }
 .text-container p {
   padding: 50px;
