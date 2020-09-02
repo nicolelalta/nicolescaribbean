@@ -1,57 +1,45 @@
-.title {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+body, html {
+  height: 100%;
+  background-color: #ffd633;
+  font-family: 'PT Serif Caption';
+
 }
-body {
-  background-image: url("images/background.jpg");
+.title-header {
+  font-family: 'Meddon';
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  height: 75%;
   background-attachment: fixed;
 }
-.text-container {
-  font-size: 2vw;
-  font-family: "Bookman, URW";
-  background-color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 75px;
-  padding-top: 25px;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 50px;
-  border-radius: 25px;
-  overflow-x: auto;
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'PT Serif Caption';
+  font-size: 22px;
 
 }
-.text-container p {
-  padding: 50px;
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.order a {
+  color: white;
 }
 .footer {
-  margin: 100px;
-}
-.text-container table {
-  margin-left: 75px;
   padding: 100px;
 }
-.text-container tr {
-  border-bottom: 1px solid #ddd;
-}
-.text-container td:nth-child(1) {
-  padding-right: 300px;
-}
-.text-container td:nth-child(2) {
-  text-align: right;
-  padding: 10px;
-  font-style: italic;
-}
-.text-container td:nth-child(3) {
-  text-align: right;
-  padding: 10px;
-  font-style: italic;
-}
-.map {
-  margin-left: 200px;
-}
+
