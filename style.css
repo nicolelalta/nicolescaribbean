@@ -30,6 +30,11 @@ body, html {
   font-size: 22px;
 
 }
+@media screen and (max-width: 800px) {
+  .hero-image .hero-text {
+    width: 100%;
+  }
+}
 a {
   color: black;
 }
