@@ -16,7 +16,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 75%;
+  height: 100%;
   background-attachment: fixed;
 }
 .hero-text {
@@ -28,17 +28,18 @@ body, html {
   color: white;
   font-family: 'PT Serif Caption';
   font-size: 22px;
-
+  margin-bottom: 20px;
+  max-height: 75%;
 }
-@media screen and (max-width: 800px) {
-  .hero-image .hero-text {
-    width: 100%;
-  }
+
 }
 a {
   color: black;
 }
 a:hover {
+  color: black;
+}
+a:visited {
   color: black;
 }
 .order a {
@@ -47,4 +48,13 @@ a:hover {
 .footer {
   padding: 100px;
 }
-
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
